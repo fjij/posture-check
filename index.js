@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const cron = require('node-cron');
-const token = require('./config.json');
+const { token } = require('./config.json');
 
 const data = new Map();
 
