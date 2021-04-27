@@ -115,4 +115,4 @@ async function playSound(voiceChannel) {
   dispatcher.setVolumeLogarithmic(volume / 5);
 }
 
-client.login(process.env.DISCORD_BOT_TOKEN);
+client.login(token);
